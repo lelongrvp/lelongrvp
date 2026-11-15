@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="262" viewBox="0 0 600 262" role="img" aria-labelledby="title description">
+<title id="title">Logbook</title>
+<desc id="description">Career log. September 2025 to now: Software Engineer at SmartOSC. November 2023 to July 2025: Software Engineer at Megazone Vietnam. August to October 2023: Intern at Megazone Vietnam.</desc>
+<style>
+{{FONT_FACES}}
+text{font-family:'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#ebdbb2}
+.label{font-size:14px;font-weight:700;letter-spacing:2px;fill:#fe8019}
+.key{font-size:14px;font-weight:700;letter-spacing:2px;fill:#d5c4a1}
+.body{font-size:17px}
+.small{font-size:15px}
+.secondary{fill:#d5c4a1}
+.muted{fill:#928374}
+.strong{font-weight:700}
+.accent{fill:#fe8019}
+.ok{fill:#b8bb26}
+.alert{fill:#fb4934}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+@keyframes type{from{transform:scaleX(1)}to{transform:scaleX(0)}}
+@keyframes pulse{0%{transform:scale(1);opacity:.7}100%{transform:scale(3.2);opacity:0}}
+.cursor{opacity:0;animation:blink 1.1s steps(1) infinite}
+.cover{transform-box:fill-box;transform-origin:right center}
+.ring{transform-box:fill-box;transform-origin:center;animation:pulse 2.4s ease-out infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.cover{transform:scaleX(0)}.cursor{opacity:1}.ring{opacity:0}}
+
+</style>
+<defs><pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#1d2021" opacity=".35"/></pattern></defs>
+<rect x=".5" y=".5" width="599" height="261" fill="#282828" stroke="#3c3836"/>
+<rect x=".5" y=".5" width="599" height="40" fill="#3c3836"/>
+<rect width="4" height="262" fill="#fe8019"/>
+<text class="label" x="22" y="26">SECTOR 03 :: LOGBOOK</text>
+<text class="key" x="576" y="26" text-anchor="end">PUBLIC RECORD</text>
+<line x1="34" y1="75" x2="34" y2="199" stroke="#928374" stroke-width="2"/>
+<circle class="ring" cx="34" cy="75" r="5" fill="#fe8019"/>
+<circle cx="34" cy="75" r="5" fill="#fe8019"/>
+<text class="body strong" x="58" y="80">SmartOSC — Software Engineer</text>
+<text class="small secondary" x="58" y="104">2025-09 → now · digital commerce agency, Hanoi</text>
+<circle cx="34" cy="137" r="5" fill="#282828" stroke="#fe8019" stroke-width="2"/>
+<text class="body strong" x="58" y="142">Megazone Vietnam — Software Engineer</text>
+<text class="small secondary" x="58" y="166">2023-11 → 2025-07 · cloud services, MegazoneCloud group</text>
+<circle cx="34" cy="199" r="5" fill="#282828" stroke="#fe8019" stroke-width="2"/>
+<text class="body strong" x="58" y="204">Megazone Vietnam — Intern</text>
+<text class="small secondary" x="58" y="228">2023-08 → 2023-10</text>
+<rect width="600" height="262" fill="url(#scanlines)"/>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="240" viewBox="0 0 600 240" role="img" aria-labelledby="title description">
+<title id="title">Modules</title>
+<desc id="description">Stack modules. Frontend: React, Next.js, TypeScript, JavaScript, Vue.js. Cloud: AWS and Azure, hands-on exposure. Backend: Go (growing), AI integration. Side projects: Swift, SwiftUI.</desc>
+<style>
+{{FONT_FACES}}
+text{font-family:'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#ebdbb2}
+.label{font-size:14px;font-weight:700;letter-spacing:2px;fill:#fe8019}
+.key{font-size:14px;font-weight:700;letter-spacing:2px;fill:#d5c4a1}
+.body{font-size:17px}
+.small{font-size:15px}
+.secondary{fill:#d5c4a1}
+.muted{fill:#928374}
+.strong{font-weight:700}
+.accent{fill:#fe8019}
+.ok{fill:#b8bb26}
+.alert{fill:#fb4934}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+@keyframes type{from{transform:scaleX(1)}to{transform:scaleX(0)}}
+@keyframes pulse{0%{transform:scale(1);opacity:.7}100%{transform:scale(3.2);opacity:0}}
+.cursor{opacity:0;animation:blink 1.1s steps(1) infinite}
+.cover{transform-box:fill-box;transform-origin:right center}
+.ring{transform-box:fill-box;transform-origin:center;animation:pulse 2.4s ease-out infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.cover{transform:scaleX(0)}.cursor{opacity:1}.ring{opacity:0}}
+
+</style>
+<defs><pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#1d2021" opacity=".35"/></pattern></defs>
+<rect x=".5" y=".5" width="599" height="239" fill="#282828" stroke="#3c3836"/>
+<rect x=".5" y=".5" width="599" height="40" fill="#3c3836"/>
+<rect width="4" height="240" fill="#fe8019"/>
+<text class="label" x="22" y="26">SECTOR 01 :: MODULES</text>
+<text class="key" x="576" y="26" text-anchor="end">4 LOADED</text>
+<text class="key" x="24" y="80">FRONTEND</text>
+<text class="body" x="170" y="80">React · Next.js · TypeScript</text>
+<text class="body" x="170" y="104">JavaScript · Vue.js</text>
+<text class="key" x="24" y="144">CLOUD</text>
+<text class="body" x="170" y="144">AWS · Azure (hands-on exposure)</text>
+<text class="key" x="24" y="184">BACKEND</text>
+<text class="body" x="170" y="184">Go (growing) · AI integration</text>
+<text class="key" x="24" y="224">SIDE</text>
+<text class="body" x="170" y="224">Swift · SwiftUI</text>
+<rect width="600" height="240" fill="url(#scanlines)"/>
+</svg>

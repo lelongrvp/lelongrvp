@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="190" viewBox="0 0 600 190" role="img" aria-labelledby="title description">
+<title id="title">Mission 02</title>
+<desc id="description">Mission 02, name redacted. Isometric survival board-game prototype with a deterministic rules engine, AI bots and simulation tests. TypeScript, Three.js. Classified: private repository.</desc>
+<style>
+{{FONT_FACES}}
+text{font-family:'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#ebdbb2}
+.label{font-size:14px;font-weight:700;letter-spacing:2px;fill:#fe8019}
+.key{font-size:14px;font-weight:700;letter-spacing:2px;fill:#d5c4a1}
+.body{font-size:17px}
+.small{font-size:15px}
+.secondary{fill:#d5c4a1}
+.muted{fill:#928374}
+.strong{font-weight:700}
+.accent{fill:#fe8019}
+.ok{fill:#b8bb26}
+.alert{fill:#fb4934}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+@keyframes type{from{transform:scaleX(1)}to{transform:scaleX(0)}}
+@keyframes pulse{0%{transform:scale(1);opacity:.7}100%{transform:scale(3.2);opacity:0}}
+.cursor{opacity:0;animation:blink 1.1s steps(1) infinite}
+.cover{transform-box:fill-box;transform-origin:right center}
+.ring{transform-box:fill-box;transform-origin:center;animation:pulse 2.4s ease-out infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.cover{transform:scaleX(0)}.cursor{opacity:1}.ring{opacity:0}}
+
+</style>
+<defs><pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#1d2021" opacity=".35"/></pattern></defs>
+<rect x=".5" y=".5" width="599" height="189" fill="#282828" stroke="#3c3836"/>
+<rect x=".5" y=".5" width="599" height="40" fill="#3c3836"/>
+<rect width="4" height="190" fill="#fe8019"/>
+<text class="label" x="22" y="26">MISSION 02 :: ██████████</text>
+<text class="label alert" x="576" y="26" text-anchor="end">CLASSIFIED</text>
+<text class="body" x="24" y="76">Isometric survival board-game prototype:</text>
+<text class="body" x="24" y="102">deterministic rules engine, AI bots, sims.</text>
+<text class="key" x="24" y="142">TYPESCRIPT · THREE.JS · RULES ENGINE · AI</text>
+<text class="small secondary" x="24" y="172">ACCESS: PRIVATE REPOSITORY // LINK WITHHELD</text>
+<rect width="600" height="190" fill="url(#scanlines)"/>
+</svg>
